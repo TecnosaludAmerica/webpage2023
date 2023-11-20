@@ -1,0 +1,705 @@
+.mediaViewInfo {
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: index;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#index {
+	position: absolute;
+	width: 1920px;
+	height: 2987px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes  {
+
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes  {
+
+
+}
+@keyframes  {
+
+
+}
+#Textura_fondo_transparente {
+	position: absolute;
+	width: 1925.521px;
+	height: 1283.766px;
+	left: -1.92px;
+	top: 948px;
+	overflow: visible;
+}
+#Fondo_desvanecido {
+	position: absolute;
+	width: 1920px;
+	height: 1280px;
+	left: 0px;
+	top: -200px;
+	overflow: visible;
+}
+#banda_iconos_landing {
+	fill: rgba(30,107,167,1);
+}
+.banda_iconos_landing {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 60px;
+	left: 0px;
+	top: 747px;
+}
+#Todos_los_productos {
+	position: absolute;
+	width: 325px;
+	height: 325px;
+	left: 1035px;
+	top: 587px;
+	overflow: visible;
+	--web-animation: fadein undefineds undefined;
+	--web-action-type: page;
+	--web-action-target: Productos___Todos.html;
+	cursor: pointer;
+}
+#Todos_los_productos{ transition: transform .2s;}#Todos_los_productos:hover { transform: scale(1.02);}
+#Areas_hospitalarias {
+	position: absolute;
+	width: 325px;
+	height: 325px;
+	left: 686px;
+	top: 587px;
+	overflow: visible;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Productos___Areas.html;
+	cursor: pointer;
+}
+#Areas_hospitalarias{ transition: transform .2s;}#Areas_hospitalarias:hover { transform: scale(1.02);}
+#Explore {
+	left: 547px;
+	top: 758px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	height: 41px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#Apoyando_la_salud_Latinoameric {
+	left: 452px;
+	top: 223px;
+	position: absolute;
+	overflow: visible;
+	width: 1017px;
+	height: 234px;
+	text-align: center;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	color: rgba(30,107,167,1);
+}
+#BG_CONTACTO {
+	fill: rgba(73,168,206,1);
+}
+.BG_CONTACTO {
+	position: absolute;
+	overflow: visible;
+	width: 1921.68px;
+	height: 1080px;
+	left: 0px;
+	top: 1913px;
+}
+#Mapa_contacto {
+	position: absolute;
+	width: 1936.076px;
+	height: 643.66px;
+	left: -1.92px;
+	top: 2137.032px;
+	overflow: visible;
+}
+#Contctenos {
+	left: 155px;
+	top: 1982.442px;
+	position: absolute;
+	overflow: visible;
+	width: 315px;
+	white-space: nowrap;
+	line-height: 60.000003814697266px;
+	margin-top: -5.000001907348633px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#Sganos_en_nuestras_redes {
+	left: 740px;
+	top: 2000.442px;
+	position: absolute;
+	overflow: visible;
+	width: 441px;
+	white-space: nowrap;
+	line-height: 42px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+#Nuestro_horario_de_atencin {
+	left: 1391.834px;
+	top: 2000.442px;
+	position: absolute;
+	overflow: visible;
+	width: 478px;
+	white-space: nowrap;
+	line-height: 42px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+#Lunes_a_viernes_745_-_1700 {
+	left: 1394.214px;
+	top: 2048.65px;
+	position: absolute;
+	overflow: visible;
+	width: 252px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Tecnosalud_Amrica_SAS {
+	left: 1115.5px;
+	top: 2818.983px;
+	position: absolute;
+	overflow: visible;
+	width: 252px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Todos_los_derechos_reservados {
+	left: 1115.5px;
+	top: 2842.983px;
+	position: absolute;
+	overflow: visible;
+	width: 219px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+#n__Trminos_y_Condiciones_ {
+	left: 1118.5px;
+	top: 2881px;
+	position: absolute;
+	overflow: hidden;
+	width: 176px;
+	height: 21px;
+	line-height: 24px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+#n__Poltica_de_Tratamiento_de_D {
+	left: 1118.5px;
+	top: 2907px;
+	position: absolute;
+	overflow: visible;
+	width: 235px;
+	height: 18px;
+	line-height: 24px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+#n__Poltica_de_Uso_de_Redes_Soc {
+	left: 1118.5px;
+	top: 2930.017px;
+	position: absolute;
+	overflow: hidden;
+	width: 253px;
+	height: 21px;
+	line-height: 24px;
+	margin-top: -4.5px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+#Servicio_al_cliente_datos {
+	position: absolute;
+	width: 590.823px;
+	height: 161.625px;
+	left: 1372.639px;
+	top: 2137.032px;
+	overflow: visible;
+}
+#Servicio_al_cliente_ {
+	position: absolute;
+	width: 590.823px;
+	height: 161.625px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Servicio_al_cliente {
+	left: 31.659px;
+	top: 16.066px;
+	position: absolute;
+	overflow: visible;
+	width: 298px;
+	white-space: nowrap;
+	line-height: 42px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+#servicioalclientetecnosaludcom {
+	left: 34.78px;
+	top: 73.371px;
+	position: absolute;
+	overflow: visible;
+	width: 339px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.05px;
+}
+#Whatsapp_57_317_635-4439 {
+	left: 34.78px;
+	top: 97.371px;
+	position: absolute;
+	overflow: visible;
+	width: 258px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Direccion {
+	position: absolute;
+	width: 284.452px;
+	height: 162.535px;
+	left: 787.602px;
+	top: 2407.732px;
+	overflow: visible;
+}
+#BG_direccion {
+	fill: rgba(30,107,167,1);
+}
+.BG_direccion {
+	overflow: visible;
+	position: absolute;
+	width: 284.452px;
+	height: 162.535px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Centro_Comercial_Hacienda {
+	left: 16.623px;
+	top: 25.648px;
+	position: absolute;
+	overflow: visible;
+	width: 237px;
+	white-space: nowrap;
+	line-height: 22.3652400970459px;
+	margin-top: -1.8637704849243164px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18.637699127197266px;
+	color: rgba(255,255,255,1);
+}
+#Santa_Barbra {
+	left: 16.623px;
+	top: 48.013px;
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	white-space: nowrap;
+	line-height: 22.3652400970459px;
+	margin-top: -1.8637704849243164px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18.637699127197266px;
+	color: rgba(255,255,255,1);
+}
+#Zona_F_oficina {
+	left: 144.915px;
+	top: 48.013px;
+	position: absolute;
+	overflow: visible;
+	width: 124px;
+	white-space: nowrap;
+	line-height: 22.3652400970459px;
+	margin-top: -1.8637704849243164px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18.637699127197266px;
+	color: rgba(255,255,255,1);
+}
+#n_06_Cr_6__115-65 {
+	left: 16.623px;
+	top: 70.378px;
+	position: absolute;
+	overflow: visible;
+	width: 154px;
+	white-space: nowrap;
+	line-height: 22.3652400970459px;
+	margin-top: -1.8637704849243164px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18.637699127197266px;
+	color: rgba(255,255,255,1);
+}
+#Bogot_Colombia {
+	left: 16.623px;
+	top: 92.744px;
+	position: absolute;
+	overflow: visible;
+	width: 155px;
+	white-space: nowrap;
+	line-height: 22.3652400970459px;
+	margin-top: -1.8637704849243164px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18.637699127197266px;
+	color: rgba(255,255,255,1);
+}
+#Contacto {
+	position: absolute;
+	width: 460px;
+	height: 784px;
+	left: 102px;
+	top: 2063.983px;
+	overflow: visible;
+}
+#Boton_WA {
+	position: absolute;
+	width: 183px;
+	height: 46px;
+	left: 241px;
+	top: 2764.983px;
+	overflow: visible;
+}
+#Boton_WA { opacity: 100%;cursor: pointer;transition: transform .2s;}#Boton_WA:hover {opacity: 70%;transform: scale(1.02);}
+#Tecnosalud_emerge_de_uno_de_lo {
+	left: 178px;
+	top: 1337px;
+	position: absolute;
+	overflow: visible;
+	width: 1520px;
+	height: 245px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(30,107,167,1);
+}
+#Origen {
+	left: 178px;
+	top: 1270px;
+	position: absolute;
+	overflow: visible;
+	width: 163px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(30,107,167,1);
+}
+#Nombre_Contacto {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 323px;
+	height: 24px;
+	left: 153px;
+	top: 2163px;
+	overflow: visible;
+	white-space: nowrap;
+	line-height: 114.19356536865234px;
+	margin-top: -47.09678268432617px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+input[type=text]{    color: #ffffff;	font-family: Raleway;	font-size: 12pt;    height: 43px;	width: 358px;	padding: 20px;    text-decoration: none;	background-color: #1D6BA7;	opacity: 45%;    border:1px solid #ffffff;    border-radius:22px;	}	input::placeholder {		color: #FFFFFF;	}
+#Mensaje_Contacto {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 323px;
+	height: 473px;
+	left: 153px;
+	top: 2247px;
+	overflow: visible;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+input[type=text]{    color: #ffffff;	font-family: Raleway;	font-size: 12pt;    height: 43px;	width: 358px;	padding: 20px;    text-decoration: none;	background-color: #1D6BA7;	opacity: 45%;    border:1px solid #ffffff;    border-radius:22px;	}	input::placeholder {		color: #FFFFFF;	}	#mensaje::placeholder {		color: #FFFFFF;	}	#mensaje {		resize: none;		color: #FFFFFF;		width: 358px;		height: 500px;		padding: 20px;		font-family: Raleway;		font-size: 12pt;		background-color: #1d6ba7;		opacity: 45%;		border: 1px solid #ffffff;		border-radius: 22px;		}
+#instagram {
+	position: absolute;
+	width: 53px;
+	height: 54px;
+	left: 1043px;
+	top: 2058.983px;
+	overflow: visible;
+}
+#instagram{ opacity: 100%;	transition: transform .2s;}#instagram:hover { opacity: 70%;transform: scale(1.2);}
+#Linkedin {
+	position: absolute;
+	width: 53px;
+	height: 52px;
+	left: 897px;
+	top: 2058.983px;
+	overflow: visible;
+}
+#Linkedin{ opacity: 100%;	transition: transform .2s;}#Linkedin:hover { opacity: 70%;transform: scale(1.2);}
+#twitter {
+	position: absolute;
+	width: 53px;
+	height: 52px;
+	left: 970px;
+	top: 2058.983px;
+	overflow: visible;
+}
+#twitter{ opacity: 100%;	transition: transform .2s;}#twitter:hover { opacity: 70%;transform: scale(1.2);}
+#Facebook {
+	position: absolute;
+	width: 52px;
+	height: 52px;
+	left: 825px;
+	top: 2058.983px;
+	overflow: visible;
+}
+#Facebook{ opacity: 100%;	transition: transform .2s;}#Facebook:hover { opacity: 70%;transform: scale(1.2);}
+#Logo_Tec {
+	position: absolute;
+	width: 189px;
+	height: 189px;
+	left: 866px;
+	top: 2786.5px;
+	overflow: visible;
+}
+#Menu {
+	position: absolute;
+	width: 1920px;
+	height: 100px;
+	left: 0px;
+	top: -1px;
+	overflow: visible;
+}
+#Rectngulo_1 {
+	fill: rgba(255,255,255,1);
+}
+.Rectngulo_1 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+}
+#Logo_Hospitalario-07 {
+	position: absolute;
+	width: 339px;
+	height: 89px;
+	left: 120px;
+	top: 6px;
+	overflow: visible;
+}
+#Rectngulo_2 {
+	fill: rgba(79,170,207,1);
+}
+.Rectngulo_2 {
+	position: absolute;
+	overflow: visible;
+	width: 211px;
+	height: 100px;
+	left: 1682px;
+	top: 0px;
+}
+#wsa {
+	position: absolute;
+	width: 37px;
+	height: 36px;
+	left: 1727px;
+	top: 30px;
+	overflow: visible;
+}
+#wsa{ transition: transform .2s;}#wsa:hover { transform: scale(1.15);}
+#mail {
+	position: absolute;
+	width: 41px;
+	height: 32px;
+	left: 1800px;
+	top: 32px;
+	overflow: visible;
+}
+#mail{ transition: transform .2s;}#mail:hover { transform: scale(1.15);}
+#Productos {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 129px;
+	height: 30px;
+	left: 1341px;
+	top: 33px;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(30,107,167,1);
+}
+#Productos {cursor: pointer;}#Productos:hover {color:#4CAACF;}#overlay {position: fixed;  display: none;  width: 100%;  height: 100%;  top: 0;  left: 0;  right: 0;  bottom: 0;  background-color: rgba(0,0,0,.75);  z-index: 2;  cursor: pointer;}#Productosm {		left: 721px;		top: 274px;		position: absolute;		overflow: visible;		width: 479px;		height: 112px;		text-align: center;		font-family: Raleway;		font-style: normal;		font-weight: bold;		font-size: 96px;		color: rgba(255,255,255,1);	}	#Enmascarar_grupo_2 {	position: absolute;	width: 80px;	height: 80px;	left: 888px;	top: 766px;	overflow: visible;		transition: transform .2s;	}	#Enmascarar_grupo_2:hover{		transform: scale(1.1)	}	#reas_Hospitalarias_ov {		left: 532px;		top: 424px;		position: absolute;		overflow: visible;		width: 857px;		height: 112px;		text-align: center;		font-family: Raleway;		font-style: normal;		font-weight: normal;		font-size: 50px;		color: rgba(255,255,255,1);		transition: transform .3s;	}	#reas_Hospitalarias_ov:hover {		transform: scale(1.05)	}	#Todos_los_productos_ov {		left: 508px;		top: 544px;		position: absolute;		overflow: visible;		width: 905px;		height: 112px;		text-align: center;		font-family: Raleway;		font-style: normal;		font-weight: normal;		font-size: 50px;		color: rgba(255,255,255,1);		transition: transform .3s;	}	#Todos_los_productos_ov:hover {		transform: scale(1.05)	}
+#Tecnoblog {
+	left: 1518px;
+	top: 33px;
+	position: absolute;
+	overflow: visible;
+	width: 145px;
+	height: 30px;
+	--web-animation: fadein undefineds undefined;
+	--web-action-type: page;
+	--web-action-target: Tecnoblog.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(30,107,167,1);
+}
+#Tecnoblog {cursor: pointer;}#Tecnoblog:hover {color:#4CAACF;}
+#La_Experiencia_Tecnosalud {
+	left: 977px;
+	top: 33px;
+	position: absolute;
+	overflow: visible;
+	width: 330px;
+	height: 30px;
+	--web-animation: fadein undefineds undefined;
+	--web-action-type: page;
+	--web-action-target: La_Experiencia_Tecnosalud.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(30,107,167,1);
+}
+#La_Experiencia_Tecnosalud:hover {color: #4FAACF;
