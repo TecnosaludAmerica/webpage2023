@@ -99,9 +99,29 @@
 	</div>
 	<img id="Contacto" src="images/Contacto.png" srcset="images/Contacto.png 1x">
 		
-	<button id="boton_contacto" type="button" onClick="generarURL()"><img id="Boton_WA"  src="Boton_WA.png" srcset="Boton_WA.png 1x, Boton_WA@2x.png 2x"></button>
+	<button id="boton_contacto" type="button" onClick="generarURL()"><img id="Boton_WA"  src="images/Boton_WA.png" srcset="images/Boton_WA.png 1x, Boton_WA@2x.png 2x"></button>
 <script type="text/javascript" id="Boton_WA_1">
-function generarURL() {            // Obtener el valor de los textarea            var name = document.getElementById('name').value;            var mensaje = document.getElementById('mensaje').value;            // Texto predefinido            var textoPredefinido = "Hola, mi nombre es \n";            var textoPredefinido2 = ", \n";            // Construir el mensaje final            var mensajeFinal = textoPredefinido + name + "\n" + textoPredefinido2 + "\n" + mensaje;            // Reemplazar espacios con %20 para la URL de WhatsApp            mensajeFinal = encodeURIComponent(mensajeFinal);            // Construir la URL de WhatsApp            var urlWhatsApp = "https://api.whatsapp.com/send?phone=573176354439&text=" + mensajeFinal;            // Redirigir a la URL de WhatsApp            window.location.href = urlWhatsApp;}
+function generarURL() {
+            // Obtener el valor de los textarea
+            var name = document.getElementById('name').value;
+            var mensaje = document.getElementById('mensaje').value;
+
+            // Texto predefinido
+            var textoPredefinido = "Hola, mi nombre es \n";
+            var textoPredefinido2 = ", \n";
+
+            // Construir el mensaje final
+            var mensajeFinal = textoPredefinido + name + "\n" + textoPredefinido2 + "\n" + mensaje;
+
+            // Reemplazar espacios con %20 para la URL de WhatsApp
+            mensajeFinal = encodeURIComponent(mensajeFinal);
+
+            // Construir la URL de WhatsApp
+            var urlWhatsApp = "https://api.whatsapp.com/send?phone=573176354439&text=" + mensajeFinal;
+
+            // Redirigir a la URL de WhatsApp
+            window.location.href = urlWhatsApp;
+}
 </script>
 	<div id="Tecnosalud_emerge_de_uno_de_lo">
 		<span>Tecnosalud emerge de uno de los principales laboratorios farmacéuticos en Colombia. El propósito que se le asigna es fortalecer la cadena de suministro farmacéutico. <br/><br/>No satisfecho con esto, decide proteger también los insumos, equipos y espacios de la industria de la salud, ignorando fronteras y estableciendo nuevos estándares de calidad donde sea que encuentra la oportunidad de hacerlo. Hoy Tecnosalud es el líder en calidad y servicio gracias a su implacable marcha hacia una salud mejor brindada en Latinoamérica.    </span>
@@ -109,8 +129,14 @@ function generarURL() {            // Obtener el valor de los textarea        
 	<div id="Origen">
 		<span>Origen</span>
 	</div>
-	<div id="Nombre_Contacto"><form>		<input id="name" name="name" type="text" placeholder="Bernardo Camelo" required=""/>	</form></div>
-	<form id="Mensaje_Contacto">		<textarea name="mensaje" id="mensaje" cols="45" rows="33" placeholder="Estoy precisando de más información referente a sus productos y soluciones, gracias"></textarea>	</form>
+	<div id="Nombre_Contacto">
+<form>
+		<input id="name" name="name" type="text" placeholder="Bernardo Camelo" required=""/>
+	</form>
+</div>
+	<form id="Mensaje_Contacto">
+		<textarea name="mensaje" id="mensaje" cols="45" rows="33" placeholder="Estoy precisando de más información referente a sus productos y soluciones, gracias"></textarea>
+	</form>
 	<a href="https://www.instagram.com/tecnosaludamerica/">
 	<img id="instagram" class="icono_SM_hover" src="images/instagram.png" srcset="images/instagram.png 1x">
 		
@@ -148,9 +174,23 @@ function generarURL() {            // Obtener el valor de los textarea        
 		<img id="mail" src="images/mail.png" srcset="images/mail.png 1x">
 			
 		</a>
-		<div onclick="overlayon()" id="Productos">			<span>Productos</span>		</div><div id="overlay" >			<div id="Productosm">Productos</div>  			<div id="reas_Hospitalarias_ov" onclick="parent.location='Productos___Areas.html'">Áreas Hospitalarias</div>  			<div id="Todos_los_productos_ov" onclick="parent.location='Productos___Todos.html'">Todos los productos</div>        	<div id="x" onclick="overlayoff()"><img id="Enmascarar_grupo_2" src="Enmascarar_grupo_2.png" srcset="Enmascarar_grupo_2.png 1x, Enmascarar_grupo_2@2x.png 2x"></div>    </div>
+		<div onclick="overlayon()" id="Productos">
+			<span>Productos</span>
+		</div>
+<div id="overlay" >
+			<div id="Productosm">Productos</div>
+  			<div id="reas_Hospitalarias_ov" onclick="parent.location='Productos___Areas.html'">Áreas Hospitalarias</div>
+  			<div id="Todos_los_productos_ov" onclick="parent.location='Productos___Todos.html'">Todos los productos</div>
+        	<div id="x" onclick="overlayoff()"><img id="Enmascarar_grupo_2" src="Enmascarar_grupo_2.png" srcset="Enmascarar_grupo_2.png 1x, Enmascarar_grupo_2@2x.png 2x"></div>
+    </div>
 	<script type="text/javascript" id="Productos_1">
-			function overlayon() {	  document.getElementById("overlay").style.display = "block";	}	function overlayoff() {	  document.getElementById("overlay").style.display = "none";	}	
+			function overlayon() {
+	  document.getElementById("overlay").style.display = "block";
+	}
+
+	function overlayoff() {
+	  document.getElementById("overlay").style.display = "none";
+	}	
 			</script>
 		<div onclick="application.goToTargetView(event)" id="Tecnoblog">
 			<span>Tecnoblog</span>
